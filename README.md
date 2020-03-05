@@ -22,4 +22,14 @@
 
 	git clone https://github.com/ThanhDevs/fullstack01.git
 ~~~
+* sau khi clone về thêm sửa xóa như bình thường trong thu mục của riêng mình nhé, 
+
+1. git status: là để kiểm tra có gì thay đổi trong toàn project 
+2. git add . hoặc git add tên file : muốn đẩy lên 
+3. git commit -a -m "nội dung nói về việc bạn sửa gì trong project"
+4. git push origin master : để đẩy lên trên github 
+
+* Nếu có thông báo là user là ThanhDevs và pass thì của riêng các bạn 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
