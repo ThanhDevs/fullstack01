@@ -1,0 +1,75 @@
+.wrap {
+	width: 300px;
+	height: 300px;
+	background-color: blue;
+	position: relative;
+	/*
+	Để set vị trí tương đối cho nó 
+	*/
+
+	margin: 50px;
+}
+
+.box {
+	width: 50px;
+	height: 50px;
+	background-color: yellow;
+	position: absolute;
+	/*
+	Để set vị trí tuyệt đối cho nó 
+	*/
+	
+	/*margin: -25px -25px;*/
+	/*transform: translate(-50%,-50%);*/
+}
+
+.box.box1 {
+	z-index: 3;
+	bottom: -25px;
+
+	
+}
+
+.box.box2 {
+	top: 50px;
+	left: 25px;
+	background-color: red;
+	z-index: 2;
+}
+
+header {
+	background-color: green;
+	
+}
+
+.h1, .h2 {
+	width: 50%;
+	height: 200px;
+}
+
+.clear::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+@media (max-width: 600px) {
+	.h1, .h2 {
+		float: none;
+	}
+}
+
+@media (min-width: 600px) {
+	.h1, .h2 {
+		float: left;
+	}
+}
+
+a:hover {
+	background-color: red;
+	color: yellow;
+}
+
+a:focus {
+	outline: red;
+}
