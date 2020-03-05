@@ -14,3 +14,4 @@ git commit -a -m "Nội dung mô tả"
 //Nếu làm nhóm gì trc khi push phải pull về
 git pull origin master
 git push origin master
+OK
