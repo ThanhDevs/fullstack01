@@ -1,0 +1,29 @@
+@import "common.css";
+
+/*
+Header 
+*/
+.logo-name { margin: 0; }
+
+/**/
+.navbar { background-color: var(--mainBg); }
+
+.navbar>nav>ul { display: flex; list-style: none; }
+.navbar li { position: relative; }
+.navbar li a { font-size: 16px; }
+.navbar>nav>ul>li>a { display: block; line-height: 50px; padding: 0 15px; color: #fff; }
+.navbar li:hover>a {background-color: #474e5d; }
+
+/*Main content*/
+.primary .content { flex: 2; padding: 0 10px }
+
+.inner-box { padding: 15px; border: 1px solid #e6e6e6; background-color: #fff; border-radius: 4px; margin-bottom: 30px; }
+.inner-box:hover { box-shadow: 2px 2px 8px rgba(0,0,0,0.2); }
+.entry-header { position: relative; }
+.entry-meta { margin-bottom: 15px; }
+.comments-number { width: 30px; height: 25px; background-color: #ea4c89; color: #fff; position: absolute; top: 0; right: 0; display: inline-block; border-radius: 4px; text-align: center; line-height: 25px; }
+.comments-number::after { content: ""; border: 4px solid #ea4c89; position: absolute; top: 100%; left: 8px; border-bottom-color: transparent; border-right-color: transparent; }
+.read-more { display: inline-block;background-color: #ea4c89; color: #fff; line-height: 37px; padding: 0 15px; border-radius: 4px; }
+/*Sidebar*/
+.primary .sidebar { flex: 1; padding: 0 10px }
+
