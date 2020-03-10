@@ -16,10 +16,8 @@ body, html {
  ul.sub-menu { background-color: rgb(71, 78, 93); } 
  ul li:hover>.sub-menu{ display: block; }
   ul>li>.sub-menu{ top: 40px; left: 0; z-index: 1; }
-  ul.sub-menu {
-    left: -103px;
-}
-  /* ul>li>.menu-right .sub-menu { left: -106px; } */
+  .menu-right .sub-menu { left: -106px; }
+  
 /**/
 .navbar { background-color: var(--mainBg); }
 .navbar>nav>ul { display: flex; list-style: none; }
