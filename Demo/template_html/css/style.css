@@ -1,4 +1,5 @@
 @import "common.css";
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 /*
 Header 
@@ -26,4 +27,19 @@ Header
 .read-more { display: inline-block;background-color: #ea4c89; color: #fff; line-height: 37px; padding: 0 15px; border-radius: 4px; }
 /*Sidebar*/
 .primary .sidebar { flex: 1; padding: 0 10px }
+.sidebar .widget h3 { font-size: 15px; color: #666; margin-bottom: 10px; font-weight: 700;}
+.textwidget a { color: #5e5e5e;}
+.textwidget a:hover{ color: #ea4c89;}
+.social { list-style: none; display: flex; }
+.social li a {display: inline-block; font-size: 26px; border-radius: 5px; width: 50px; height: 48px; text-align: center; margin: 0 10px 0;}
+.social .weibo a {background-color: #39bdfd; color: #fff;}
+.social .weibo a:hover { background-color: #49b4e8; }
+.social .qq a {background-color: #8a8a8a; color: #fff;}
+.social .qq a:hover {background-color: #b3acac;}
+.social .feed a {background-color: #ff966d; color: #fff;}
+.social .feed a:hover {background-color: #d88362;}
+.social .email a {background-color: #f0b5bd; color: #fff;}
+.social .email a:hover {background-color: #f3c8ce;}
+.social .weixin a {background-color: #000; color: #fff;}
+.social .weixin a:hover {background-color: #2d2c2c;}
 
