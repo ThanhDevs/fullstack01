@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>http://caibaojian.com</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style1.css">
 </head>
 <body>
     <header>
@@ -12,8 +12,8 @@
 			<div class="container clearfix">
 				
 				<div class="logo fl">
-					<h1 class="logo-name">前端开发博客</h1>
-					<h3 class="desc">专注于前端开发,分享前端开发教程和前端资讯</h3>
+					<h1 class="logo-name">Your Logo</h1>
+					<h3 class="desc">Your Description</h3>
 				</div>
 
 				<div class="header-ads fr"></div>
@@ -22,7 +22,7 @@
         </div>
         <div class="navbar">
 			<nav class="container">
-				<ul>
+				<ul class="top-menu">
 					<li><a href="#">精选推荐</a></li>
 					<li><a href="#">前端开发</a>
 						<ul class="sub-menu">
@@ -46,7 +46,10 @@
 							<li><a href="">前端周报</a></li>
 						</ul>
 					</li>
-					<li class="ml-auto menu-right"><a href="#">前端头条</a>
+				</ul>
+
+				<ul class="top-menu menu-right">
+					<li><a href="#">前端头条</a>
 						<ul class="sub-menu">
 							<li><a href="">React中文</a></li>
 							<li><a href="">NPM中文网</a></li>
@@ -54,20 +57,20 @@
 							<li><a href="">MongoDB教程</a></li>
 						</ul>
 					</li>
-					<li class="menu-right"><a href="#">前端俱乐部</a>
+					<li><a href="#">前端俱乐部</a>
 						<ul class="sub-menu">
 							<li><a href="">React中文</a></li>
 							<li><a href="">NPM中文网</a></li>
 						</ul>
 					</li>
-					<li class="menu-right"><a href="#">精英教程</a>
+					<li><a href="#">精英教程</a>
 						<ul class="sub-menu">
 							<li><a href="">React中文</a></li>
 							<li><a href="">NPM中文网</a></li>
 							<li><a href="">webpack中文网</a></li>					
 						</ul>
 					</li>
-					<li class="menu-right"><a href="#">微信群</a>
+					<li><a href="#">微信群</a>
 						<ul class="sub-menu">
 							<li><a href="">React中文</a></li>
 							<li><a href="">NPM中文网</a></li>
@@ -84,7 +87,7 @@
 		</div>
 		<div class="breadcrumb"> 
 			<div class="container">
-				<div class="inline fl">
+				<div class="left fl">
 					<ul>
 						<li><a href="#">CSS3参考手册</a></li>
 						<li><a href="#">jQuery API手册</a></li>
@@ -94,15 +97,15 @@
 						<li><a href="#">JavaScript学习</a></li>
 					</ul>
 				</div>
-				<form action="" class="bdcs-search-form fr">
+				<form action="" class="fr">
 					<input type="text" placeholder="百度自定义搜索">
 					<input type="submit" class="bdcs-search-form-submit" value="搜索">
 				</form>
 			</div>
 		</div>
-		<div style="margin: 10px auto;max-width: 1100px;		">
+		<div class="img-header">
 			<a href="#">
-				<img src="juejin.png" alt="">
+				<img src="img1.png" alt="">
 			</a>
 		</div>
 	</header>
@@ -113,11 +116,11 @@
 				<div class="primary flex">
 					<div class="content">
 						<div class="hentry inner-box">
-							<h1 class="name">网购赚钱必备</h1>
+							<h1 class="title">网购赚钱必备</h1>
 							<p>前端博客助手微信机器人升级了，在保留原有的技术功能上，增加了帮人购物时寻找优惠券和返利，你也来体验一下！</p>
 						</div>
 						<div class="hentry inner-box">
-							<h1 class="name">20200309 前端开发周报</h1>
+							<h1 class="title">20200309 前端开发周报</h1>
 							<p>总结Vue组件的通信；【JavaScript】几个必须要会的高级编程技巧；JavaScript学习总结之数组排序的方法；JavaScript学习总结之字符串常用的属性和方法；[推荐] 要进大厂？前端灰度发布必须要知道；前端常见面试-进阶篇； ...
 							</p>
 						</div>
@@ -184,7 +187,72 @@
 					</div><!-- /.content -->
 
 					<div class="sidebar">
-						<h3>Sidebar</h3>
+						<aside class = "widget inner-box">
+							<h3>CSS Tutorial</h3>
+							<div class = "content-widget">
+								<p>
+									CSS is a language that describes the style of an HTML document.
+									CSS describes how HTML elements should be displayed.										
+									This tutorial will teach you CSS from basic to advanced...
+								</p>
+							</div>
+							<ul class="social">
+							  <li class = "weibo"><a href="#" ><span class="fa fa-weibo"></span></a></li>
+							  <li class = "qq"><a href="#" ><span class="fa fa-qq"></a></li>
+							  <li class = "feed"><a href="#" ><span class="fa fa-feed"></a></li>
+							  <li class = "email"><a href="#" ><span class="fa fa-envelope-o"></a></li>
+							  <li class = "weixin"><a href="#" ><span class="fa fa-weixin"></a></li>
+							</ul>
+						</aside>
+
+						<aside class="widget-scoll inner-box">
+							<h3 class="widget-title">A Complete Guide to Flexbox</h3>
+							<ul >
+								<li><a href="#">
+								  <h4>display</h4> 
+								  <p>This defines a flex container; inline or block depending on the given value.</p>
+								</a></li>
+								<li><a href="#">
+								  <h4>order</h4> 
+								  <p>By default, flex items are laid out in the source order.</p>
+								</a></li>
+								<li><a href="#">
+								  <h4>flex-wrap</h4> 
+								  <p>By default, flex items will all try to fit onto one line. </p>
+								</a></li>
+								<li><a href="#">
+								  <h4>flex-shrink</h4> 
+								  <p>This defines the ability for a flex item to shrink if necessary.</p>
+								</a></li>
+								<li><a href="#">
+									<h4>flex-shrink</h4> 
+									<p>This defines the ability for a flex item to shrink if necessary.</p>
+								  </a></li>
+								  <li><a href="#">
+									<h4>flex-shrink</h4> 
+									<p>This defines the ability for a flex item to shrink if necessary.</p>
+								  </a></li>
+								  <li><a href="#">
+									<h4>flex-shrink</h4> 
+									<p>This defines the ability for a flex item to shrink if necessary.</p>
+								  </a></li>	
+							</ul>
+						</aside>
+						<aside class="widget-text inner-box">
+							<div class="textwidget">
+								<p>CERTIFICATES</p>
+								<div class="list">
+									<a href="#">HTML</a>
+									<a href="#">CSS</a>
+									<a href="#">JavaScript</a>
+									<a href="#">SQL</a>
+									<a href="#">Python</a>
+									<a href="#">PHP</a>
+									<a href="#">Bootstrap</a>
+									<a href="#">XML</a>	
+								</div>
+							</div>
+						</aside>
 					</div>
 				</div>
 			</div>

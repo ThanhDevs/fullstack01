@@ -11,12 +11,13 @@ body, html {
 .logo-name { margin: 0; }
 
 /*sub-menu*/
+.top-menu{display: flex;}
   ul li{ position: relative; list-style:none; } 
  .sub-menu{ display: none; position: absolute; top: 0;left: 100%; width: 200px; background-color: #eee; padding: 5px 20px; }
  ul.sub-menu { background-color: rgb(71, 78, 93); } 
  ul li:hover>.sub-menu{ display: block; }
-  ul>li>.sub-menu{ top: 40px; left: 0; z-index: 1; }
-  .menu-right .sub-menu { left: -106px; }
+  ul>li>.sub-menu{ top: auto; left: 0; z-index: 1; }
+ .sub-menu { left: auto; right: 0; }
   
 /**/
 .navbar { background-color: var(--mainBg); }
@@ -27,7 +28,7 @@ body, html {
 .navbar>nav>ul>li>a { display: block; line-height: 50px; padding: 0 15px; color: #fff; }
 .navbar li:hover>a {background-color: #474e5d; }
 .breadcrumb { background: #e6e6e6; padding: 6px 0; height: 45px; }
-input[type=text] { border: 1px solid #e6e6e6; padding: 4px 6px; background: #fff; }
+input[type=text] { border: 1px solid #e6e6e6; padding: 4px 6px; background: #fff; height: 31px; }
 input[type=submit] { background: #458fd2; color: #fff; padding: 4px 8px; border: 1px solid #458fd2; }
 /*Main content*/
 .primary .content { flex: 2; padding: 0 10px }
