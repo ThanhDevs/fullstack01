@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>http://caibaojian.com</title>
 	<link rel="stylesheet" href="css/style1.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="js/main.js"></script>
 </head>
 <body>
     <header>
@@ -23,64 +25,72 @@
         <div class="navbar">
 			<nav class="container">
 				<ul class="top-menu">
-					<li><a href="#">精选推荐</a></li>
-					<li><a href="#">前端开发</a>
+					<li><a href="#">Trang chủ</a></a>
+					<li><a href="#">Hướng dẫn học</a>
 						<ul class="sub-menu">
-							<li><a href="">前端开发代码</a></li>
-							<li><a href="">前端开发资源</a></li>
-							<li><a href="">前端开发教程</a></li>
-							<li><a href="">javascript学习</a></li>
-							<li><a href="">移动前端</a></li>
+							<li><a href="">Hướng dẫn học html</a>
+								<ul class="menu-children">
+									<li><a href="#"></a>Học html</li>
+									<li><a href="#"></a>Học html4</li>
+									<li><a href="#"></a>Học html5</li>
+								</ul>
+							</li>
+							<li><a href="#">Hướng dẫn học css</a>
+								<ul class="menu-children">
+									<li><a href="#"></a>Học css</li>
+									<li><a href="#"></a>Học css3</li>
+									<li><a href="#"></a>Học css4</li>
+								</ul>
+							</li>
+							<li><a href="#">Hướng dẫn học javascript</a></li>
+							<li><a href="#">Hướng dẫn học react js</a></li>
+							<li><a href="#">Hướng dẫn học pts cs6</a></li>
 						</ul>
 					</li>
-					<li><a href="#">技术文档</a>
+					<li><a href="#">Bài tập</a>
 						<ul class="sub-menu">
-							<li><a href="">React中文</a></li>
-							<li><a href="">NPM中文网</a></li>
-							<li><a href="">webpack中文网</a></li>
-							<li><a href="">MongoDB教程</a></li>
+							<li><a href="">Bài tập cơ bản</a>
+								<ul class="menu-children">
+									<li><a href="#"></a>Bài tập html cơ bản</li>
+									<li><a href="#"></a>Bài tập css cơ bản</li>
+									<li><a href="#"></a>Bài tập js cơ bản</li>
+								</ul>
+							</li>
+							<li><a href="">Bài tập nâng cao</a>
+								<ul class="menu-children">
+									<li><a href="#"></a>Bài tập html nâng cao</li>
+									<li><a href="#"></a>Bài tập css nâng cao</li>
+									<li><a href="#"></a>Bài tập js nâng cao</li>
+								</ul>
+							</li>
 						</ul>
 					</li>					
-					<li><a href="#">前端日报</a>
+					<li><a href="#">Kham khảo</a>
 						<ul class="sub-menu">
-							<li><a href="">前端周报</a></li>
+							<li><a href="#">Kham khảo html4 và html5</a></li>
+							<li><a href="#">Kham khảo css3</a></li>
 						</ul>
 					</li>
 				</ul>
 
 				<ul class="top-menu menu-right">
-					<li><a href="#">前端头条</a>
+					<li><a href="#">Chuyên đề</a>
 						<ul class="sub-menu">
-							<li><a href="">React中文</a></li>
-							<li><a href="">NPM中文网</a></li>
-							<li><a href="">webpack中文网</a></li>
-							<li><a href="">MongoDB教程</a></li>
+							<li><a href="#">Chuyên đề html5</a></li>
+							<li><a href="#">Chuyên đề css3</a></li>
+							<li><a href="#">Chuyên đề jQuery & js</a></li>					
 						</ul>
 					</li>
-					<li><a href="#">前端俱乐部</a>
+					<li><a href="#">Công cụ hổ trợ</a>
 						<ul class="sub-menu">
-							<li><a href="">React中文</a></li>
-							<li><a href="">NPM中文网</a></li>
+							<li><a href="#">CSS3 Generator</a></li>
+							<li><a href="#">Ramdom tools</a></li>
+							<li><a href="#">Generator Tools</a></li>	
 						</ul>
 					</li>
-					<li><a href="#">精英教程</a>
-						<ul class="sub-menu">
-							<li><a href="">React中文</a></li>
-							<li><a href="">NPM中文网</a></li>
-							<li><a href="">webpack中文网</a></li>					
-						</ul>
+					<li><a href="#">Liên hệ</a>
 					</li>
-					<li><a href="#">微信群</a>
-						<ul class="sub-menu">
-							<li><a href="">React中文</a></li>
-							<li><a href="">NPM中文网</a></li>
-							<li><a href="">webpack中文网</a></li>
-							<li><a href="">MongoDB教程</a></li>
-							<li><a href="">React中文</a></li>
-							<li><a href="">NPM中文网</a></li>
-							<li><a href="">webpack中文网</a></li>
-							<li><a href="">MongoDB教程</a></li>
-						</ul>
+					<li><a href="#">Giới thiệu</a>
 					</li>
 				</ul>
 			</nav>
@@ -89,25 +99,23 @@
 			<div class="container">
 				<div class="left fl">
 					<ul>
-						<li><a href="#">CSS3参考手册</a></li>
-						<li><a href="#">jQuery API手册</a></li>
-						<li><a href="#">开发者头条</a></li>
-						<li><a href="#">前端网址导航</a></li>
-						<li><a href="#">前端网址导航</a></li>
-						<li><a href="#">JavaScript学习</a></li>
+						<li><a href="#">Hướng dẫn tham khảo CSS3</a></li>
+						<li><a href="#">Hướng dẫn API jQuery</a></li>
+						<li><a href="#">Tiêu đề nhà phát triển</a></li>
+						<li><a href="#">Học JavaScript</a></li>
 					</ul>
 				</div>
 				<form action="" class="fr">
-					<input type="text" placeholder="百度自定义搜索">
-					<input type="submit" class="bdcs-search-form-submit" value="搜索">
+					<input type="text" placeholder="Nhập từ khoá...">
+					<input type="submit" class="bdcs-search-form-submit" value="Tìm kiếm">
 				</form>
 			</div>
 		</div>
-		<div class="img-header">
+		<!-- <div class="img-header">
 			<a href="#">
 				<img src="img1.png" alt="">
 			</a>
-		</div>
+		</div> -->
 	</header>
 	
 	<main>
@@ -116,72 +124,81 @@
 				<div class="primary flex">
 					<div class="content">
 						<div class="hentry inner-box">
-							<h1 class="title">网购赚钱必备</h1>
-							<p>前端博客助手微信机器人升级了，在保留原有的技术功能上，增加了帮人购物时寻找优惠券和返利，你也来体验一下！</p>
+							<h1 class="title">Cần thiết để kiếm tiền trực tuyến</h1>
+							<p>Robot WeChat trợ lý blog mặt trước đã được nâng cấp. Giữ nguyên các chức năng kỹ thuật ban đầu, nó đã tăng tìm kiếm phiếu giảm 
+								giá và giảm giá khi mua sắm cho bạn. Bạn cũng có thể trải nghiệm nó!</p>
 						</div>
 						<div class="hentry inner-box">
-							<h1 class="title">20200309 前端开发周报</h1>
-							<p>总结Vue组件的通信；【JavaScript】几个必须要会的高级编程技巧；JavaScript学习总结之数组排序的方法；JavaScript学习总结之字符串常用的属性和方法；[推荐] 要进大厂？前端灰度发布必须要知道；前端常见面试-进阶篇； ...
+							<h1 class="title">20200309 Front End Development Weekly</h1>
+							<p>Tóm tắt việc giao tiếp của các thành phần Vue; [JavaScript] Một số kỹ năng lập trình nâng cao cần phải học; Phương pháp sắp xếp JavaScript của sắp xếp mảng; Chuỗi tóm tắt học tập JavaScript thường được sử dụng các thuộc tính và phương thức; [Khuyến nghị] Bạn muốn vào nhà máy lớn? 
+								Phải biết bản phát hành thang độ xám phía trước...
 							</p>
 						</div>
 
 						<div class="aliyun-inner">
-							<a class="middle-box" href="#">阿里云双十一史上最低89元/年</a>
-							<a class="middle-box" href="#">加入500人前端微信群</a>
-							<a class="middle-box" href="#">100本Vue+React+HTML5电子书</a>
+							<a class="middle-box" href="#">Mức thấp nhất trong lịch sử mười một của Aliyun là 89 nhân dân tệ / năm</a>
+							<a class="middle-box" href="#">Tham gia nhóm WeChat 500 người ở phía trước</a>
+							<a class="middle-box" href="#">100 Vue + React + sách điện tử HTML5</a>
 						</div>
 
 						<article class="post inner-box">
 							<div class="entry-header">
-								<h2 class="title">20200309 前端开发周报</h2>
+								<h2 class="title">20200309 Front End Development Weekly</h2>
 
 								<div class="entry-meta">
-									<a href="#">前端博客</a>
+									<a href="#">Blog mặt trước</a>
 									<time>2020-03-09</time>
-									<a href="#">前端开发日报</a>
+									<a href="#">
+										Front-end phát triển hàng ngày</a>
 									44View
 									<a href="#" class="comments-number"><span>0</span></a>
 								</div>
 							</div><!-- /. header -->
 							<div class="entry-content">
-								<p>CSS Color、Media Queries、Transforms、Conditional Rules；阿里云服务器部署个人网站(nodejs + mongodb)；一起来看看Babel做了什么；精读《结合 React 使用原生 Drag ...</p>
-								<a href="#" class="read-more">阅读全文</a>
+								<p>CSS Color、Media Queries、Transforms、Conditional Rules,nodejs + mongodb...</p>
+								<a href="#" class="read-more">Đọc tiếp</a>
 							</div>
 						</article>
 
 						<article class="post inner-box">
 							<div class="entry-header">
-								<h2 class="title">20200309 前端开发周报</h2>
+								<h2 class="title">20200309 
+									Front End Development Weekly</h2>
 
 								<div class="entry-meta">
-									<a href="#">前端博客</a>
+									<a href="#">
+										Blog mặt trước</a>
 									<time>2020-03-09</time>
-									<a href="#">前端开发日报</a>
+									<a href="#">
+										Front-end phát triển hàng ngày</a>
 									44View
 									<a href="#" class="comments-number"><span>0</span></a>
 								</div>
 							</div><!-- /. header -->
 							<div class="entry-content">
-								<p>CSS Color、Media Queries、Transforms、Conditional Rules；阿里云服务器部署个人网站(nodejs + mongodb)；一起来看看Babel做了什么；精读《结合 React 使用原生 Drag ...</p>
-								<a href="#" class="read-more">阅读全文</a>
+								<p>CSS Color、Media Queries、Transforms,nodejs + mongodb ...</p>
+								<a href="#" class="read-more">Đọc tiếp</a>
 							</div>
 						</article>
 
 						<article class="post inner-box">
 							<div class="entry-header">
-								<h2 class="title">20200309 前端开发周报</h2>
+								<h2 class="title">20200309 
+									Front End Development Weekly</h2>
 
 								<div class="entry-meta">
-									<a href="#">前端博客</a>
+									<a href="#">
+										Blog mặt trước</a>
 									<time>2020-03-09</time>
-									<a href="#">前端开发日报</a>
+									<a href="#">
+										Front-end phát triển hàng ngày</a>
 									44View
 									<a href="#" class="comments-number"><span>0</span></a>
 								</div>
 							</div><!-- /. header -->
 							<div class="entry-content">
-								<p>CSS Color、Media Queries、Transforms、Conditional Rules；阿里云服务器部署个人网站(nodejs + mongodb)；一起来看看Babel做了什么；精读《结合 React 使用原生 Drag ...</p>
-								<a href="#" class="read-more">阅读全文</a>
+								<p>CSS Color、Media Queries、Transforms,nodejs + mongodb ...</p>
+								<a href="#" class="read-more">Đọc tiếp</a>
 							</div>
 						</article>
 					</div><!-- /.content -->
@@ -238,6 +255,33 @@
 								  </a></li>	
 							</ul>
 						</aside>
+
+						<div class="widget-tab inner-box">
+						  <div id="tab-wrap">
+								<div class="tab-nav">
+									<h3>Bài viết phổ biến</h3>	
+									<h3>Cập nhật gần đây</h3>
+								</div>
+								<div class="tab-content-wrap">
+									<ul class="tab-content-items">
+										<li>What is Lorem Ipsum?</li>
+										<li>Why do we use it?</li>
+										<li>Where does it come from?</li>
+										<li>Where can I get some?</li>
+									</ul>
+									
+									<ul class="tab-content-items">				
+										<li>Where does it come from?</li>
+										<li>Where can I get some?</li>
+										<li>What is Lorem Ipsum?</li>
+										<li>Why do we use it?</li>
+									</ul>
+			
+									</div>
+									
+								</div>	
+							</div>					
+					
 						<aside class="widget-text inner-box">
 							<div class="textwidget">
 								<p>CERTIFICATES</p>
@@ -258,5 +302,11 @@
 			</div>
 		</div>
 	</main>
+	<div class="scroll-top">
+		<span class="button up"></span>
+		<span class="button down"></span>
+	</div>
+	
 </body>
 </html>
+

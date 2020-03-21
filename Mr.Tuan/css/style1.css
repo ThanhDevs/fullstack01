@@ -15,10 +15,14 @@ body, html {
 ul.top-menu { display: flex; }
 nav.container { display: flex; }
 ul.menu-right{margin-left: auto;}
-.sub-menu{ display: none; position: absolute; top: auto; width: 135px; 
+.sub-menu{ display: none; position: absolute; top: auto; width: 200px; 
           background-color: rgb(71, 78, 93); } 
 ul li:hover>.sub-menu{ display: block; }
 .menu-right .sub-menu { right: 0; }
+.menu-children{ display: none; position: absolute; top: 0; left: 100%; width: 200px; 
+    background-color: rgb(71, 78, 93); color: white; } 
+.menu-children li:hover{background: #4ceac8 !important;}
+ul li ul li:hover>.menu-children{ display: block; }
 
 .navbar { background-color: var(--mainBg); }
 .navbar li { position: relative; list-style:none; }
@@ -26,7 +30,7 @@ ul li:hover>.sub-menu{ display: block; }
    
 .navbar>nav>ul>li>a { display: block; line-height: 50px; padding: 0 15px; color: #fff; }
 /* .navbar li:hover li a {background-color: #474e5d; } */
-.top-menu li:hover{ background-color: red;}
+.top-menu li:hover{ background-color: #ea4c89;}
 .breadcrumb { background: #e6e6e6; padding: 6px 0; height: 45px; }
 .left {margin-top: 5px; }
 input[type=text] { border: 1px solid #e6e6e6; padding: 4px 6px; background: #fff; height: 31px; }
@@ -81,5 +85,34 @@ h4 { font-weight: 500; }
 aside.widget-scoll.inner-box { height: 470px; overflow: hidden; }
 .widget-scoll ul { overflow-y: scroll; height: 400px; padding: 7px; margin-right: -35px; }
 
-.widget-text a { color: black; margin: 15px; }
-.widget-text a:hover { color: red; }
+.widget-text a { background: #f7f7f7; border-radius: 3px; margin: 0 1px 1px 0; color: #333; padding: 6px 8px; }
+.widget-text a:hover { color: red; background: cornflowerblue;  }
+
+.tab-nav { display: flex; justify-content: space-around; }
+/* .tab-content-wrap { display: flex; padding-left: 20px; } */
+.tab-content-wrap { text-align: center; }
+.tab-content-wrap li { list-style: none; }
+
+.scroll-top {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+}
+span.button {
+    width: 30px;
+    height: 35px;
+    background: #71eaea;
+    color: white;
+    margin-bottom: 12px;
+    display: flex;
+}
+
+span.up {
+        background-position: -280px -245px;
+        background-image: url(//caibaojian.com/wp-content/themes/blue/images/glyphicons-halflings.png);
+ }
+ span.down {
+    background-position: -303px -245px;
+    background-image: url(//caibaojian.com/wp-content/themes/blue/images/glyphicons-halflings.png);
+}

@@ -14,3 +14,6 @@ git pull origin master //lấy dl về
 git push origin master //đưa dl lên git
 
 đã sửa xong..làm gì tiếp đây anh ^^
+
+//làm menu đa cấp
+//chuyển sang tiếng anh 
